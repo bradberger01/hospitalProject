@@ -11,16 +11,7 @@ namespace hospitalProject
         //FIELDS
         protected string employeeName;
         protected float employeeNumber;
-        //FIELDS
-        protected string specialtyArea;
-
-        //PROPERTIES
-        public string SpecialtyArea
-        {
-            get { return this.specialtyArea; }
-            set { this.specialtyArea = value; }
-        }
-
+        
         //PROPERTIES
         public string Name
         {

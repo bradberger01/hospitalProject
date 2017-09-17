@@ -8,15 +8,15 @@ namespace hospitalProject
 {
     class Doctor:HospitalEmployee  
     {
-        ////FIELDS
-        //protected string specialtyArea;
+        //FIELDS
+        protected string specialtyArea;
 
-        ////PROPERTIES
-        //public string SpecialtyArea
-        //{
-        //    get { return this.specialtyArea; }
-        //    set { this.specialtyArea = value; }
-        //}
+        //PROPERTIES
+        public string SpecialtyArea
+        {
+            get { return this.specialtyArea; }
+            set { this.specialtyArea = value; }
+        }
 
         //CONTRACTORS
         public Doctor()
@@ -29,6 +29,8 @@ namespace hospitalProject
             this.employeeNumber = employeeNumber;
             this.specialtyArea = specialtyArea;
         }
+
+
 
     }
 
